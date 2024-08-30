@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="OIP.jpg" alt="">
+            <p>Um dia desses, estava na blibioteca da minha cidade, lá eu achei uma caixa que dentro dela tinha uma carta! Nessa carta, a autora dizia que existia um tesouro escondido na floresta mais densa do local, claro que tinha dicas no caminho para lá, deixadas pela autora, fiquei muito curiosa e decidi ir atrás desse tesouro!</p>
+            <button class="btn-proximo" data-proximo="1">Ir para direita</button>
+            <button class="btn-proximo" data-proximo="2">Ir para esquerda</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide ir pela direita, caminhando para fora da blibioteca logo avistanto um pequeno parque, você decide procurar a primeira dica</p>
+            <button class="btn-proximo" data-proximo="3">Procurar perto dos bancos</button>
+            <button class="btn-proximo" data-proximo="4">Procurar perto dos arbustos</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide ir para a esquerda, caminhando para fora da blibioteca logo vendo uma antiga loja da cidade. Na carta, está escrito que essa loja é um ponto de referência que você está perto da dica. Você olha em volta e vê um pequeno parque e o caminho de volta para sua casa.</p>
+            <button class="btn-proximo" data-proximo="5">Ir para o parque</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+           <p>Você achou um mapa para seguir dentro da floresta! Parabéns! E agora você começa a seguir o mapa, passando por muitos animais, que as vezes te deixa com medo.</p>
+           <button class="btn-proximo" data-proximo="7">Continuar</button>
+            <button class="btn-proximo" data-proximo="8">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-4">
+         <img src="cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Oh não! Você acaba não encontrando a pista, e você acha que apenas uma pegadinha e acaba voltando para casa</p>
+         </div>
+         <div class="passo" id="passo-5">
+            <p>Você vai para o parque e acaba vendo os bancos e os arbustos. Onde você vai procurar?</p>
+            <button class="btn-proximo" data-proximo="3">Procurar perto dos bancos</button>
+             <button class="btn-proximo" data-proximo="4">Procurar perto dos arbustos</button>
+         </div>
+         <div class="passo" id="passo-6">
+            <img src="cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você acha que apenas uma pegadinha e acaba voltando para casa</p>
+         </div>
+         <div class="passo" id="passo-7">
+            <p>Você decide continuar e ser extremamente corajosa, você caminha mais um pouco e quanto menos você espera...</p>
+            <button class="btn-proximo" data-proximo="9">Continuar</button>
+         </div>
+         <div class="passo" id="passo-8">
+            <img src="cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você acaba ficando com muito medo e decide ir para sua casa, para ficar segura.</p>
+         </div>
+         <div class="passo" id="passo-9">
+            <p>Parabéns! Você achou o tesouro, são muitas joías! Você quer pegar?</p>
+            <img class="tesouro" src="o-tesouro-perdido.png" alt="encontrando o tesouro">
+            <button class="btn-proximo" data-proximo="10">Não, vou apenas fotografar para provar que achei</button>
+            <button class="btn-proximo" data-proximo="11">Sim! Vou mostrar para todos o que achei</button>
+         </div>
+         <div class="passo" id="passo-10">
+            <p>Muito bem, você deixa as joías na onde estão e vai embora apenas com uma fotografia, muitos acreditam em você quando você mostra a fotografia, porém muiutos desacreditam.</p>
+         </div>
+         <div class="passo" id="passo-11">
+            <p>Você decide pegar para você, alegando que que você achou algo perdido, porém muitos não acreditaram, mas alguns acreditam e faz de você alguém famoso!</p>
+         </div> 
+    </main>
+<script src="script.js"></script>
+
+</body>
+</html>
